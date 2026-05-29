@@ -32,4 +32,5 @@ jobs:
           name: "nexus-GHA"
           version: "tagGha"
           url: "http://nexusoss.saas-preprod.beescloud.com"
-          cloudbees-url: "https://api.saas-qa.beescloud.com"      
+          cloudbees-url: "https://api.saas-qa.beescloud.com" 
+          type: "docker"
