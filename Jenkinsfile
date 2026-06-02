@@ -25,7 +25,7 @@ pipeline {
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
                     name: "nexus-jenkins",
-                    version: “1.0,
+                    version: “1.0",
                     type: "docker",
                     url: "nexusoss.saas-preprod.beescloud.com/aspm-test:1.0",
                     label: “nexus”
