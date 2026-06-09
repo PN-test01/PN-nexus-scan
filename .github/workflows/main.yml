@@ -30,7 +30,7 @@ jobs:
         uses: cloudbees-io-gha/register-build-artifact@v3
         with:
           name: "nexus-GHA"
-          version: "2.0"
-          url: "http://nexusoss.saas-preprod.beescloud.com/aspm-test:2.0"
+          version: "1.0"
+          url: "http://nexusoss.saas-preprod.beescloud.com/aspm-test:1.0"
           cloudbees-url: "https://api.cloudbees.io" 
           type: "docker"
